@@ -1,0 +1,62 @@
+{
+    "git.enableSmartCommit": true,
+    "files.autoSave": "onFocusChange",
+    "editor.minimap.maxColumn": 110,
+    "editor.rulers": [
+        100,
+        {
+            "column": 120,
+            "color": "#C62C2C"
+        }
+    ],
+    "workbench.colorTheme": "Default Dark+",
+    "gitlens.defaultDateShortFormat": null,
+    "gitlens.defaultTimeFormat": null,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": false
+    },
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--max-line-length=100", "--ignore=E501", "--verbose"],
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length", "100"],
+    "python.analysis.diagnosticSeverityOverrides": {
+          "reportMissingImports": "none",
+        "reportMissingModuleSource": "information"
+    },
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "eslint.options": {
+        "extensions": [".html", ".js", ".vue"]
+    },
+    "eslint.validate": ["html", "javascript", "vue"],
+    "eslint.alwaysShowStatus": true,
+    "prettier.printWidth": 100,
+    "vetur.format.defaultFormatter.js": "prettier-eslint",
+    "vetur.format.defaultFormatterOptions": {
+        "prettyhtml": {
+            "printWidth": 100,
+            "singleQuote": true
+        }
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
